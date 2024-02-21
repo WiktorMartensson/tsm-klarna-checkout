@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
     "dev": "nodemon index.js"
   },
-  "author": "Marcus Pousette",
+  "author": "Wiktor Mårtensson",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
